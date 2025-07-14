@@ -1,12 +1,7 @@
-.container{
+div {
     background-color: aquamarine;
     border: 1px solid springgreen;
     font-size: 30px;
-    padding: 20;
+    margin: 1rem;
 }
-.container-fluid{
-    background-color: aquamarine;
-    border: 1px solid springgreen;
-    font-size: 30px;
-    margin: 20px;
-}
+
