@@ -1,0 +1,11 @@
+.container{
+    background-color: aqua;
+    font-size: 30px;
+    margin: 20;
+    padding: 20;
+}
+.container-fluid{
+    background-color: brown;
+    font-size: 30px;
+    
+}
