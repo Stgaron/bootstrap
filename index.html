@@ -9,18 +9,30 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 1rem
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>First bootstrap experimenting</h1>
-        <p>this is the container type, it shouldnt reach the edge of the screen, and it should be responsive, but if margin is added in css as .container it might cause it to go to the left of the page, but if its added as div it should be alright. Filling text::njkswgnjswrdkjngvdfrswjnk,vsjkndcsknjvkjnsd </p>
+    <div class="egesz">
+        <div class="container">
+            <h1>First bootstrap experimenting</h1>
+            <p>this is the container type, it shouldnt reach the edge of the screen, and it should be responsive, but if margin is added in css as .container it might cause it to go to the left of the page, but if its added as div it should be alright. Filling text::njkswgnjswrdkjngvdfrswjnk,vsjkndcsknjvkjnsd </p>
+        </div>
+        <div class="container-fluid">
+            <h1>Second bootstrap experimenting</h1>
+            <p>This is the container-fluid type, it should take up the whole pages width, and it can be made into a responsive element. Filling text:woijgioedfkjwejfhnlkewnbfewjfewjnklm ,fjnkl.,m wef nmewjnkfmlewnfjklewkjlnhwfjlhknbw</p>
+        </div>
+        <div class="container-sm pt-5 mt-5 bg-primary text-white">
+            <h1>experimenting with bootstrap containers and trying to understand the responsive containers</h1>
     </div>
-    <div class="container-fluid">
-        <h1>Second bootstrap experimenting</h1>
-        <p>This is the container-fluid type, it should take up the whole pages width, and it can be made into a responsive element. Filling text:woijgioedfkjwejfhnlkewnbfewjfewjnklm ,fjnkl.,m wef nmewjnkfmlewnfjklewkjlnhwfjlhknbw</p>
-    </div>
-    <div class="container-sm pt-5 mt-5 bg-primary text-white">
-        <h1>experimenting with bootstrap containers and trying to understand the responsive containers</h1>
+
+    <div class="row">
+        <div class="col-sm-8"><p>col-sm-8</p></div>
+        <div class="col-sm-2"><p>col-sm-2</p></div>
+        <div class="col-sm-2"><p>col-sm-2</p></div>
     </div>
 </body>
 </html>
