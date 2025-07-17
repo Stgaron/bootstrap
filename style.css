@@ -3,3 +3,8 @@ div {
     border: 1px solid springgreen;
     font-size: 30px;
 }
+.sizes{
+    background-color: blue;
+    font-size: 2rem;
+    color: azure;
+}
